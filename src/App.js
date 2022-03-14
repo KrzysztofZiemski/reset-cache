@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import x from '../package.json'
 
 function App() {
+
+ 
+console.log('wersja', x.version)
   return (
     <div className="App">
       <header className="App-header">
